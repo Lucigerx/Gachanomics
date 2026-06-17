@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# API keys — never commit these
+.env
+.env.*
+secrets.json
+api_key.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output artefacts (regenerated on run)
+gachanomics_v6_dashboard.png
+*.png
+*.csv
+
+# Internal project docs (not for public repo)
+PROJECT_CONTEXT*.md
+*_Summary.docx
+EC424_V5*.docx
+Research_Report.md
+Gacha_Nomics_Methodology.pdf
